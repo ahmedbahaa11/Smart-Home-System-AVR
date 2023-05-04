@@ -23,4 +23,5 @@ Slave AVR When Recieve Automatic Mode will control the Home by Reading of all Se
 ##### Light -> Controlled by Reading of LDR Sensor, if Light of Sun is High System will turn OFF the Light of Home, else if Light of Sun is Low System will turn ON the Light of Home.
 ##### Water Pumb -> Fire Alarm System Controlled by Reading of Smoke Sensor, if Smoke Sensor Readind More than 50 System Will Open The Water Pumb and Turn on Buzzer and show Fire!! on LCD.
 ##### TV -> if User Entre the Home From Door TV will Open automaticly . and if user leave the home TV will Turn OFF.
-### 4- Change Password :
+### 4- Edit Password :
+In this Feature The user can change her password. Master AVR can Handle this feature by saving user password on External EEPROM memory to save it when power loss. Master AVR communicate with EEPROM by I2C Communication Protocol.
